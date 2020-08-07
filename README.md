@@ -1,5 +1,7 @@
 # Cargo Remote
 
+[Fork From sgeisler cargo-remote](https://github.com/sgeisler/cargo-remote)
+
 ***Use with caution, I didn't test this software well and it is a really hacky
 (at least for now). If you want to test it please create a VM or at least a separate
 user on your build host***
@@ -67,6 +69,13 @@ ARGS:
 
 
 ## How to install
+
+### MacOS
+
+```
+brew install rsync
+```
+
 ```bash
 git clone https://github.com/sgeisler/cargo-remote
 cargo install --path cargo-remote/
